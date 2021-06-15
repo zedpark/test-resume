@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import background from "../assets/3376462.jpg";
+import profilePic from "../assets/profilePic.png";
+import ReactRoundedImage from "react-rounded-image";
 
 class Resume extends Component {
     render() { 
@@ -20,6 +22,17 @@ class Resume extends Component {
                     top: '0',
                     left: '0',
                     }}>
+                    <div id="profileHeader">
+                        <div>
+                        <ReactRoundedImage 
+                            image={profilePic}
+                            roundedColor="black"
+                            imageWidth="64"
+                            imageHeight="64"
+                            roundedSize="4"
+                        />
+                        </div>
+                    </div>
                     <h1>Mr. Park's Resume</h1>
                     <h2>Experience</h2>
                     <div>
