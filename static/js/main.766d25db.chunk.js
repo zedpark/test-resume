@@ -1,2 +1,0 @@
-(this["webpackJsonptest-resume"]=this["webpackJsonptest-resume"]||[]).push([[0],{4:function(e,s,t){"use strict";t.r(s);t(0);var n=t(2),o=t.n(n),r=t(3),c=Object(r.jsx)("h1",{children:"Test Resume1"});console.log(c),o.a.render(c,document.getElementById("root"))}},[[4,1,2]]]);
-//# sourceMappingURL=main.766d25db.chunk.js.map
