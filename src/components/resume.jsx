@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import background from "../assets/3376462.jpg";
 import profilePic from "../assets/profilePic.png";
+import reactlogo from "../assets/reactlogo.png";
 import ReactRoundedImage from "react-rounded-image";
 
 class Resume extends Component {
@@ -22,7 +23,7 @@ class Resume extends Component {
                     top: '0',
                     left: '0',
                     }}>
-                    <div id="profileHeader">
+                    <div id="profileHeader" class="row">
                         <div>
                         <ReactRoundedImage 
                             image={profilePic}
@@ -32,9 +33,20 @@ class Resume extends Component {
                             roundedSize="4"
                         />
                         </div>
+                        <div>
+                            <h1>Mr. Park's Resume *WIP</h1>
+                            <h3>text should be on the right of logo</h3>
+                        </div>
                     </div>
-                    <h1>Mr. Park's Resume</h1>
+                    <div id="experienceModule" display="flex">
                     <h2>Experience</h2>
+                    <ReactRoundedImage
+                        image={reactlogo}
+                        imageWidth="64"
+                        imageHeight="64"
+                        roundedSize="4"
+                        />
+                    </div>
                     <div>
                         <h3>Languages and Development Tools</h3>
                         <h3>testing</h3>
