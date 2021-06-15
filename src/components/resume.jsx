@@ -6,7 +6,9 @@ class Resume extends Component {
             <React.Fragment>
                 <h1>Mr. Park's Resume</h1>
                 <h2>Experience</h2>
-                <h3>Languages and Development Tools</h3>
+                <div>
+                    <h3>Languages and Development Tools</h3>
+                </div>
             </React.Fragment>
         );
     }
