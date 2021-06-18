@@ -46,8 +46,8 @@ class Resume extends Component {
                             <h3>text should be on the right of logo</h3>
                         </div>
                     </div>
-                        <h2>Experience</h2>
                         <Container>
+                            <h2>Experience</h2>
                             <Row>
                                 <Col>
                                     <ReactRoundedImage
