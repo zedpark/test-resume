@@ -6,6 +6,10 @@ import jslogo from "../assets/jslogo.png";
 import vscodelogo from "../assets/vscode.png";
 import cpplogo from "../assets/cpplogo.png";
 import gitlogo from "../assets/gitlogo.png";
+import githublightlogo from "../assets/github-lightlogo.png";
+import mysqllogo from "../assets/mysqllogo.png";
+import nodejslogo from "../assets/nodejslogo.png";
+
 import ReactRoundedImage from "react-rounded-image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Container, Col, Row} from "react-bootstrap";
@@ -63,6 +67,15 @@ class Resume extends Component {
                                 </Col>
                                 <Col>
                                     <ReactRoundedImage
+                                    image={nodejslogo}
+                                    imageWidth="64"
+                                    imageHeight="64"
+                                    roundedSize="12"
+                                    borderRadius="40"
+                                    />
+                                </Col>
+                                <Col>
+                                    <ReactRoundedImage
                                     image={vscodelogo}
                                     imageWidth="64"
                                     imageHeight="64"
@@ -85,6 +98,23 @@ class Resume extends Component {
                                     imageWidth="64"
                                     imageHeight="64"
                                     roundedSize="12"
+                                    />
+                                </Col>
+                                <Col>
+                                    <ReactRoundedImage
+                                    image={githublightlogo}
+                                    imageWidth="64"
+                                    imageHeight="64"
+                                    roundedSize="8"
+                                    />
+                                </Col>
+                                <Col>
+                                    <ReactRoundedImage
+                                    image={mysqllogo}
+                                    imageWidth="64"
+                                    imageHeight="64"
+                                    roundedSize="12"
+                                    borderRadius="40"
                                     />
                                 </Col>
                             </Row>
