@@ -31,8 +31,9 @@ class Resume extends Component {
                     position: 'fixed',
                     overflowX: 'none',
                     }}>
-                    <div id="profileHeader">
-                        <div style={{left: '20px'}}>
+                    <div id="super-container" style={{marginLeft: '16px', marginTop: '16px'}}>
+                    <div id="profileHeader" style={{}}>
+                        <div style={{}}>
                         <ReactRoundedImage 
                             image={profilePic}
                             roundedColor="black"
@@ -46,7 +47,7 @@ class Resume extends Component {
                             <h3>text should be on the right of logo</h3>
                         </div>
                     </div>
-                        <Container>
+                        <Container style={{}}>
                             <h2>Experience</h2>
                             <Row>
                                 <Col>
@@ -122,6 +123,7 @@ class Resume extends Component {
                     <div>
                         <h3>Languages and Development Tools</h3>
                         <h3>testing</h3>
+                    </div>
                     </div>
                     </div>
             </React.Fragment>
