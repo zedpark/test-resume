@@ -19,7 +19,7 @@ class Resume extends Component {
     render() { 
         return (  
             <React.Fragment>
-                <div class="Superfont" style={{
+                <div className="Superfont" style={{
                     backgroundImage: `url(${background})`,
                     backgroundPosition: 'center',
                     backgroundAttachment: 'fixed',
@@ -33,7 +33,7 @@ class Resume extends Component {
                     overflowX: 'none',
                     }}>
                     <Container fluid style={{marginTop: '16px'}}>
-                    <div id="profileHeader" style={{}}>
+                    <div id="profile-header" className="module">
                         <div style={{}}>
                         <ReactRoundedImage 
                             image={profilePic}
@@ -43,12 +43,15 @@ class Resume extends Component {
                             roundedSize="8"
                         />
                         </div>
+                        <p/>
                         <div>
-                            <h1>Mr. Park's Resume *WIP</h1>
-                            <h3>text should be on the right of logo</h3>
+                            <p>*WIP</p>
+                            <h1>Patrick Park</h1>
+                            <h4>Software Developer</h4>
+                            <h4>Programmer</h4>
                         </div>
                     </div>
-                        <div>
+                        <div id="experienceModule" className="module">
                             <h2>Experience</h2>
                             <Row>
                                 <Col>
@@ -121,7 +124,8 @@ class Resume extends Component {
                                 </Col>
                             </Row>
                         </div>
-                    <div>
+                        <p/>
+                    <div className="module">
                         <h3>Languages and Development Tools</h3>
                         <p>testing2</p>
                     </div>
