@@ -32,6 +32,7 @@ class Resume extends Component {
                     position: 'fixed',
                     overflowX: 'none',
                     overflowY: 'scroll',
+                    top: 0,
                     bottom: 0,
                     }}>
                     <Container fluid style={{marginTop: '16px'}}>
