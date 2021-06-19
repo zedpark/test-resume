@@ -29,7 +29,7 @@ class Resume extends Component {
                     height: '100vh',
                     minHeight: '100%',
                     minWidth: '100%',
-                    position: 'fixed',
+                    position: 'absolute',
                     overflowX: 'none',
                     overflowY: 'scroll',
                     }}>
@@ -49,13 +49,13 @@ class Resume extends Component {
                         <p/>
                         <div>
                             <p>*WIP</p>
-                            <h1>Patrick Park</h1>
+                            <h2>Patrick Park</h2>
                             <h4>Software Developer</h4>
                             <h4>Programmer</h4>
                         </div>
                     </div>
-                        <div id="experienceModule" className="outer-module">
-                            <h2>Skills</h2>
+                        <div id="skillsModule" className="outer-module">
+                            <h3>Skills && Tools</h3>
                             <Row>
                                 <Col>
                                     <ReactRoundedImage
@@ -128,9 +128,15 @@ class Resume extends Component {
                             </Row>
                         </div>
                         <p/>
-                    <div className="outer-module">
+                    <div id= "experienceModule" className="outer-module">
                         <div>
-                        <h3>Languages and Development Tools</h3>
+                        <h3>Experience</h3>
+                        <p>testing213</p>
+                        </div>
+                    </div>
+                    <div id= "projectsModule" className="outer-module">
+                        <div>
+                        <h3>Software and Development Projects</h3>
                         <p>testing213</p>
                         </div>
                     </div>
