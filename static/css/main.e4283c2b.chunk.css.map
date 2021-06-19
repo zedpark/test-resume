@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,WACE,kBACF,CAEA,QACE,kBAAmB,CACnB,qBAAuB,CACvB,YACF","file":"main.e4283c2b.chunk.css","sourcesContent":[".Superfont {\n  font-family: \"Hack\";\n}\n\n.module {\n  border-radius: 25px;\n  border: 2px solid black;\n  padding: 16px;\n}\n"]}
