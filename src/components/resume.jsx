@@ -29,11 +29,11 @@ class Resume extends Component {
                     height: '100vh',
                     minHeight: '100%',
                     minWidth: '100%',
-                    position: 'absolute',
+                    position: 'fixed',
                     overflowX: 'none',
                     overflowY: 'scroll',
                     }}>
-                    <Container fluid style={{marginTop: '16px'}}>
+                    <Container fluid style={{marginTop: '16px', marginBottom: '0px'}}>
                     <div id="profile-header" className="outer-module">
                         <Row>
                         <Col>
