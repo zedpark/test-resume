@@ -13,12 +13,13 @@ import nodejslogo from "../assets/nodejslogo.png";
 import ReactRoundedImage from "react-rounded-image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Container, Col, Row} from "react-bootstrap";
+import '../App.css';
 
 class Resume extends Component {
     render() { 
         return (  
             <React.Fragment>
-                <div style={{
+                <div class="Superfont" style={{
                     backgroundImage: `url(${background})`,
                     backgroundPosition: 'center',
                     backgroundAttachment: 'fixed',
@@ -122,7 +123,7 @@ class Resume extends Component {
                         </div>
                     <div>
                         <h3>Languages and Development Tools</h3>
-                        <h3>testing</h3>
+                        <p>testing2</p>
                     </div>
                     </Container>
                     </div>

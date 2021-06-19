@@ -1,9 +1,3 @@
-.App {
-  text-align: center;
-  background-image: url("home/zed/Coding\ Projects/test-resume/src/assets/resumeBackground");
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center;
+.Superfont {
+  font-family: "Hack";
 }
