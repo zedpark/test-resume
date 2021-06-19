@@ -31,11 +31,13 @@ class Resume extends Component {
                     minWidth: '100%',
                     position: 'fixed',
                     overflowX: 'none',
-                    overflowY: 'scroll'
+                    overflowY: 'scroll',
+                    bottom: 0,
                     }}>
                     <Container fluid style={{marginTop: '16px'}}>
-                    <div id="profile-header" className="module">
-                        <div style={{}}>
+                    <div id="profile-header" className="outer-module">
+                        <Row>
+                        <Col>
                         <ReactRoundedImage 
                             image={profilePic}
                             roundedColor="black"
@@ -43,7 +45,8 @@ class Resume extends Component {
                             imageHeight="64"
                             roundedSize="8"
                         />
-                        </div>
+                        </Col>
+                        </Row>
                         <p/>
                         <div>
                             <p>*WIP</p>
@@ -52,7 +55,7 @@ class Resume extends Component {
                             <h4>Programmer</h4>
                         </div>
                     </div>
-                        <div id="experienceModule" className="module">
+                        <div id="experienceModule" className="outer-module">
                             <h2>Skills</h2>
                             <Row>
                                 <Col>
@@ -126,7 +129,7 @@ class Resume extends Component {
                             </Row>
                         </div>
                         <p/>
-                    <div className="module">
+                    <div className="outer-module">
                         <div>
                         <h3>Languages and Development Tools</h3>
                         <p>testing213</p>
