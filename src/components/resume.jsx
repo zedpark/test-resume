@@ -127,8 +127,10 @@ class Resume extends Component {
                         </div>
                         <p/>
                     <div className="module">
+                        <div>
                         <h3>Languages and Development Tools</h3>
-                        <p>testing2</p>
+                        <p>testing213</p>
+                        </div>
                     </div>
                     </Container>
                     </div>
