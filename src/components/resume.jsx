@@ -31,6 +31,7 @@ class Resume extends Component {
                     minWidth: '100%',
                     position: 'fixed',
                     overflowX: 'none',
+                    overflowY: 'scroll'
                     }}>
                     <Container fluid style={{marginTop: '16px'}}>
                     <div id="profile-header" className="module">
