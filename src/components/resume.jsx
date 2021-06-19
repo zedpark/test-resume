@@ -53,7 +53,7 @@ class Resume extends Component {
                         </div>
                     </div>
                         <div id="experienceModule" className="module">
-                            <h2>Experience</h2>
+                            <h2>Skills</h2>
                             <Row>
                                 <Col>
                                     <ReactRoundedImage
